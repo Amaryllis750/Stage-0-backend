@@ -2,7 +2,7 @@
   "name": "stage-0-backend",
   "version": "1.0.0",
   "description": "Repository for stage 0 of the HNG internship - backend track",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
