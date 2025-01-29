@@ -18,7 +18,7 @@ app.get('/', async (req, res) => {
     const github_url = "https://github.com/Amaryllis750/Stage-0-backend.git";
     const current_datetime = getCurrentDate();
 
-    return res.status(200).json({ email, current_datetime, github_url });
+    return res.status(200).json({"email": email, "github_url": github_url, "current_datetime": current_datetime});
 });
 
 
