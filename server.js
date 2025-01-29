@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-const PORT = 8010;
+const PORT = process.env.PORT || 8000;
 
 // setup the basic middleware
 app.use(express.json());    // parse json data from http requests
