@@ -7,14 +7,10 @@ const PORT = process.env.PORT || 8010;
 
 // setup the basic middleware
 app.use(express.json());    // parse json data from http requests
-app.use(express.urlencoded({ extended: false }));     // recognizes incoming requests as strings or arrays
 app.use(cors());    // add the cors to enable cors for all domains
 
 // function to get the current date and format it...
-const getCurrentDate = () => {
-   const now = new Date();
-   return now.toISOString().split('.')[0] + 'Z';
-}
+const getCurrentDate = () => new Date().toISOString().split('.')[0] + 'Z';
 
 // setup the only route in the API
 app.get('/', async (req, res) => {
