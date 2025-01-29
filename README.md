@@ -1,6 +1,6 @@
 # Simple Node.js API with Express that Returns A JSON Response
 
-## A minimal Express.js API that Returns Email, GitHub URL, and datetime in JSON format 
+### A minimal Express.js API that Returns Email, GitHub URL, and datetime in JSON format 
 
 This project is a simple Node.js API built with Express.js that returns a JSON response containing an email address, a GitHub repository URL, and the current date-time in ISO format. It demonstrates the basic setup of an Express server and handling of GET requests to serve structured JSON data.
 
