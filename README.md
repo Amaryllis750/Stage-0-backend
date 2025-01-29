@@ -35,7 +35,7 @@ A JSON object with the following fields
 {
     "email": "hngemail@example.com",
     "github_url": "https://github.com/user/repo.git", 
-    "current_datetime": "YYYY-MM-DDThh:mm:ss"
+    "current_datetime": "YYYY-MM-DDThh:mm:ssZ"
 }
 ```
 
