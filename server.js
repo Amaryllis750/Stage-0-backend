@@ -15,7 +15,7 @@ const getCurrentDate = () => new Date().toISOString().split('.')[0] + 'Z';
 // setup the only route in the API
 app.get('/', async (req, res) => {
     const email = "danielchukwuemela751@gmail.com";
-    const github_url = "https://github.com/Amaryllis750/Stage-0-backend.git";
+    const github_url = "https://github.com/Amaryllis750/Stage-0-backend";
     const current_datetime = getCurrentDate();
 
     return res.status(200).json({"email": email, "github_url": github_url, "current_datetime": current_datetime});
