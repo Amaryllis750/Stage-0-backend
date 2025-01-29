@@ -36,8 +36,12 @@ A JSON object with the following fields
 
 ## Example Usage
 Using `curl`:
+
 `curl http://localhost:8010`
+
+
 Using Postman, ThunderClient Or Browser, visit:
+
 `http://localhost:8010`
 
 
